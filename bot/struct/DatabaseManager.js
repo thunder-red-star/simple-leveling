@@ -1,7 +1,7 @@
 // Database manager for bot. Manages all sub-databases (servers and users)
 const ServerManager = require('./ServerManager.js');
 
-const Database = require('./database.js');
+const Database = require('./Database.js');
 
 class DatabaseManager {
 	constructor () {
