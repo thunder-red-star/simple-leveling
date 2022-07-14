@@ -1,0 +1,21 @@
+{% render 'partials/header.liquid', pageName: "Leaderboard"%}
+
+<h1>Rankings</h1>
+<p>You are looking at ID = {{ id }}</p>
+
+<table>
+    <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Score</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{ user.rank }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.score }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% render 'partials/footer.liquid' %}

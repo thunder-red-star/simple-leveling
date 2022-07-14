@@ -1,0 +1,24 @@
+{
+  "name": "simple-leveling",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --ignore ./data/database.json --exec 'node index.js --no-warning'",
+    "start": "node index.js --no-warnings"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.16.0-dev.1657713863-30a8d32",
+    "@discordjs/rest": "^0.5.0",
+    "@fastify/static": "^6.4.0",
+    "@fastify/view": "^7.0.0",
+    "bufferutil": "^4.0.6",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.36.1",
+    "discord.js": "^14.0.0-dev.1657713879-30a8d32",
+    "dotenv": "^16.0.1",
+    "erlpack": "github:discord/erlpack",
+    "fastify": "^4.2.1",
+    "liquidjs": "^9.39.0",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
+  }
+}
